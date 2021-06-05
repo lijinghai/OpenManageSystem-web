@@ -1,4 +1,4 @@
-<h1 align="center"> 校园失物招领网站 | Dorian </h1>
+<h1 align="center"> 东软开发平台 | Dorian </h1>
 
 <p align="center">
  	<a href="https://github.com/Dorian1015/WarmSearch">
@@ -24,27 +24,18 @@
 
 ### 项目介绍 :book:
 
-👉基于Springboot+vue+uni-app的校园失物招领平台. 含平台主体PC端、微信小程序和web后台数据管理平台.
-
-* 失物招领信息一览
-* 信息发布(支持图片上传)
+👉
 
 
 ### 项目技术栈 :star:
 
 
-- PC端（WarmSearch-PC)：`Vue 2.0`+`Vue-router`+`Vuex`+`Element-ui`+`Axios`
-- 后台管理系统(WarmSearch-Web)：基于Vue-admin-ui脚手架
-- 微信小程序(WarmSearch-uniapp)：uni-app + Vue.js
+- 后台管理系统(WarmSearch-Web)：
 - 后端(WarmSearch)：Springboot 2.4.2 + Java Web Token +MybatisPlus + Swagger
 - 数据库：MySql 5.7
 ### 项目地址 :link:
 
 项目采用前后端分离开发模式，PC端使用:Vue + Element-ui, 小程序使用Uni-app开发，后端数据API采用Java、Spring-Boot开发.
-
-PC端Code地址：https://github.com/Dorian1015/WarmSearch-PC
-
-小程序端code地址：https://github.com/Dorian1015/WarmSearch-uniapp
 
 后端code地址：https://github.com/Dorian1015/WarmSearch
 
@@ -52,11 +43,7 @@ web管理端code地址: https://github.com/Dorian1015/WarmSearch-Web
 
 ### 体验地址
 
-由于项目还在不断完善中，所以目前还未上线；
 
-主要还是因为穷，买不起服务器
-
-演示视频：[在线演示视频](https://www.bilibili.com/video/BV1f54y1j7sG)
 
 ## 前言：
 
@@ -74,9 +61,6 @@ web管理端code地址: https://github.com/Dorian1015/WarmSearch-Web
 
 ## 说明
 
-> 本项目前后端分离，前端(WarmSearch-PC）[参考锤子商城](https://www.smartisan.com/)
-
-> 这是本项目的前台源码，后端源码请看[WarmSearch](https://github.com/Dorian1015/WarmSearch),本项目包括后台管理系统([WarmSearch-Web](https://github.com/Dorian1015/WarmSearch-Web))，前台系统（[WarmSearch-PC](https://github.com/Dorian1015/WarmSearch-PC))，微信小程序部分（[WarmSearch-uniapp](https://github.com/Dorian1015/WarmSearch-uniapp))
 
 > #### 如果您觉得这项目还不错，可以在右上角`Star`支持一下，万分感谢！！！
 
@@ -107,66 +91,22 @@ web管理端code地址: https://github.com/Dorian1015/WarmSearch-Web
 ## 功能模块
 
 
-#### 1.前台页面展示（WarmSearch-PC)
-
-- ###### WarmSearch-PC首页部分展示
-
-![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/失物招领.assets/pc首页.png)
-
-- 物品详情页
-
-![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/失物招领.assets/物品详情页.png)
-
-- ###### 寻失物部分页面展示
-
-![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/失物招领.assets/寻物.png)
-
-- #####  认领页面
-![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/失物招领.assets/物品详情页2.png)
-
-![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/失物招领.assets/认领页.png)
-
-- ##### 信息发布页面
-
-![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/失物招领.assets/信息发布页.png)
-
-- ###### 寻失主部分页面展示
-
-![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/失物招领.assets/image-20210327001747782.png)
-
-- ###### 捐赠部分页面展示
-
-![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/失物招领.assets/image-20210327001838330.png)
-
-
-
-#### 2.微信小程序页面(WarmSearch-uniapp)
-
-- #### 登录页面
-
-![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/失物招领.assets/微信登录页.png)
-
-- #### 首页部分页面展示
-
-![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/失物招领.assets/image-20210327002845431.png)
-
 - #### 寻物页面部分展示
 
-![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/失物招领.assets/image-20210327003137254.png)
+[comment]: <> (![img]&#40;https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/失物招领.assets/image-20210327003137254.png&#41;)
 
-#### 3.后台管理系统(WarmSearch-web)
+#### 后台管理系统(WarmSearch-web)
 
 - #### 登录页面展示
 
-![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/失物招领.assets/登录页面.png)
+
 
 - #### 首页页面展示
 
-![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/失物招领.assets/后台首页.jpg)
 
 - #### 部分功能页面展示
 
-![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/失物招领.assets/后端页面.png)
+
 
 
 

@@ -90,7 +90,7 @@
 import { validUsername } from '@/utils/validate'
 import LangSelect from '@/components/LangSelect'
 import SocialSign from './components/SocialSignin'
-import Background from '@/assets/images/background.jpg'
+// import Background from '@/assets/images/background.jpg'
 
 export default {
   name: 'Login',
