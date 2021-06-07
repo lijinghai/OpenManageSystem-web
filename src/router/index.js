@@ -242,6 +242,21 @@ export const asyncRoutes = [
         }
       }
     ]
+  },
+  // 日志管理
+  {
+    path: '/log',
+    component: Layout,
+    children: [
+      {
+        path: 'index',
+        component: () => import('@/views/openManageSystem/log/index'),
+        name: 'log',
+        meta: { title: 'openlog',
+          icon: 'international'
+        }
+      }
+    ]
   }
 
   // {

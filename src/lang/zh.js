@@ -1,5 +1,6 @@
 export default {
   route: {
+    openlog: '日志管理',
     dictionary: '字典管理',
     role: '角色管理',
     openuser: '用户管理',
@@ -135,6 +136,11 @@ export default {
     imageUploadTips: '由于我在使用时它只有vue@1版本，而且和mockjs不兼容，所以自己改造了一下，如果大家要使用的话，优先还是使用官方版本。'
   },
   table: {
+    method: '请求方法',
+    param: '请求参数',
+    route: '请求路径',
+    result: '请求结果',
+    logname: '执行人名称',
     value: '字典值',
     dname: '字典名称',
     dcode: '类型编码',
