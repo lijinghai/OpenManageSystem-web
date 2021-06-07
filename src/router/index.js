@@ -168,21 +168,21 @@ export const asyncRoutes = [
       }
     ]
   },
-  // // 首页展示的物品信息
-  // {
-  //   path: '/goodsfirst',
-  //   component: Layout,
-  //   children: [
-  //     {
-  //       path: 'index',
-  //       component: () => import('@/views/uni-app/goodsfirst/goodsfirst'),
-  //       name: 'goodsFirst',
-  //       meta: { title: 'goodsFirst',
-  //         icon: 'international'
-  //       }
-  //     }
-  //   ]
-  // },
+  // 课程类别管理
+  {
+    path: '/course',
+    component: Layout,
+    children: [
+      {
+        path: 'index',
+        component: () => import('@/views/openManageSystem/course/index'),
+        name: 'course',
+        meta: { title: 'course',
+          icon: 'international'
+        }
+      }
+    ]
+  },
   // // 寻物类别
   // {
   //   path: '/category',

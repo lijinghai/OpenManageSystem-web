@@ -1,5 +1,6 @@
 export default {
   route: {
+    course: '课程类别管理',
     educate: '学制管理',
     study: '学习形式',
     major: '专业管理',
@@ -130,6 +131,8 @@ export default {
     imageUploadTips: '由于我在使用时它只有vue@1版本，而且和mockjs不兼容，所以自己改造了一下，如果大家要使用的话，优先还是使用官方版本。'
   },
   table: {
+    course_code: '课程类别代码',
+    course_name: '课程代码名称',
     code: '学制',
     study_code: '学习形式代码',
     study_name: '学习形式名称',
