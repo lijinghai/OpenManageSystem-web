@@ -182,7 +182,7 @@ export const asyncRoutes = [
         }
       }
     ]
-  },
+  }
   // // 寻物类别
   // {
   //   path: '/category',
