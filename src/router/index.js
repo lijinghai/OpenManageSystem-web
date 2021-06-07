@@ -228,21 +228,21 @@ export const asyncRoutes = [
       }
     ]
   },
-  // // 待招领物品详情信息
-  // {
-  //   path: '/findList',
-  //   component: Layout,
-  //   children: [
-  //     {
-  //       path: 'index',
-  //       component: () => import('@/views/uni-app/findList/findList'),
-  //       name: 'findList',
-  //       meta: { title: 'findList',
-  //         icon: 'international'
-  //       }
-  //     }
-  //   ]
-  // }
+  // 字典管理
+  {
+    path: '/dictionary',
+    component: Layout,
+    children: [
+      {
+        path: 'index',
+        component: () => import('@/views/openManageSystem/dictionary/index'),
+        name: 'dictionary',
+        meta: { title: 'dictionary',
+          icon: 'international'
+        }
+      }
+    ]
+  }
 
   // {
   //   path: '/example',

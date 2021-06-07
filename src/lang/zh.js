@@ -1,5 +1,6 @@
 export default {
   route: {
+    dictionary: '字典管理',
     role: '角色管理',
     openuser: '用户管理',
     resource: '资源分类管理',
@@ -134,6 +135,11 @@ export default {
     imageUploadTips: '由于我在使用时它只有vue@1版本，而且和mockjs不兼容，所以自己改造了一下，如果大家要使用的话，优先还是使用官方版本。'
   },
   table: {
+    value: '字典值',
+    dname: '字典名称',
+    dcode: '类型编码',
+    drole: '类型名称',
+    user: '修改人',
     role_code: '角色编码',
     role_name: '角色名称',
     state: '状态',
