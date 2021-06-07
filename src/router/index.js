@@ -152,22 +152,22 @@ export const asyncRoutes = [
         }
       }
     ]
-  }
-  // // 微信小程序端轮播图信息管理
-  // {
-  //   path: '/i18n',
-  //   component: Layout,
-  //   children: [
-  //     {
-  //       path: 'index',
-  //       component: () => import('@/views/uni-app/unbo/index'),
-  //       name: 'UnBo',
-  //       meta: { title: 'UnBo',
-  //         icon: 'international'
-  //       }
-  //     }
-  //   ]
-  // },
+  },
+  // 学制管理
+  {
+    path: '/educate',
+    component: Layout,
+    children: [
+      {
+        path: 'index',
+        component: () => import('@/views/openManageSystem/educate/index'),
+        name: 'educate',
+        meta: { title: 'educate',
+          icon: 'international'
+        }
+      }
+    ]
+  },
   // // 首页展示的物品信息
   // {
   //   path: '/goodsfirst',
