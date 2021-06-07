@@ -182,22 +182,22 @@ export const asyncRoutes = [
         }
       }
     ]
-  }
-  // // 寻物类别
-  // {
-  //   path: '/category',
-  //   component: Layout,
-  //   children: [
-  //     {
-  //       path: 'index',
-  //       component: () => import('@/views/uni-app/category/category'),
-  //       name: 'category',
-  //       meta: { title: 'category',
-  //         icon: 'international'
-  //       }
-  //     }
-  //   ]
-  // },
+  },
+  // 资源分类管理
+  {
+    path: '/resource',
+    component: Layout,
+    children: [
+      {
+        path: 'index',
+        component: () => import('@/views/openManageSystem/resource/index'),
+        name: 'resource',
+        meta: { title: 'resource',
+          icon: 'international'
+        }
+      }
+    ]
+  },
   // // 物品详情页信息
   // {
   //   path: '/goodsDetail',
