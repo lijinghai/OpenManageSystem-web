@@ -198,21 +198,21 @@ export const asyncRoutes = [
       }
     ]
   },
-  // // 物品详情页信息
-  // {
-  //   path: '/goodsDetail',
-  //   component: Layout,
-  //   children: [
-  //     {
-  //       path: 'index',
-  //       component: () => import('@/views/uni-app/goodsDetail/goodsDetail'),
-  //       name: 'goodsDetail',
-  //       meta: { title: 'goodsDetail',
-  //         icon: 'international'
-  //       }
-  //     }
-  //   ]
-  // },
+  // 用户管理
+  {
+    path: '/openuser',
+    component: Layout,
+    children: [
+      {
+        path: 'openuser',
+        component: () => import('@/views/openManageSystem/user/index'),
+        name: 'opeuser',
+        meta: { title: 'openuser',
+          icon: 'international'
+        }
+      }
+    ]
+  },
   // // 招领信息
   // {
   //   path: '/sFind',

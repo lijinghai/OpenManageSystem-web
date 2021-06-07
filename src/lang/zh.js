@@ -1,5 +1,6 @@
 export default {
   route: {
+    openuser: '用户管理',
     resource: '资源分类管理',
     course: '课程类别管理',
     educate: '学制管理',
@@ -132,6 +133,11 @@ export default {
     imageUploadTips: '由于我在使用时它只有vue@1版本，而且和mockjs不兼容，所以自己改造了一下，如果大家要使用的话，优先还是使用官方版本。'
   },
   table: {
+    name: '姓名',
+    code1: '编号',
+    phone: '手机',
+    email: '邮箱',
+    role: '角色',
     resource_code: '资源分类代码',
     resource_name: '资源分类名称',
     course_code: '课程类别代码',
