@@ -1,5 +1,6 @@
 export default {
   route: {
+    major: '专业管理',
     arrange: '层次管理',
     attestation: 'PC端认领信息管理',
     pcunbo: 'PC端轮播图信息管理',
@@ -127,6 +128,10 @@ export default {
     imageUploadTips: '由于我在使用时它只有vue@1版本，而且和mockjs不兼容，所以自己改造了一下，如果大家要使用的话，优先还是使用官方版本。'
   },
   table: {
+    major_code: '专业代码',
+    major_name: '专业名称',
+    level: '层次',
+    major_note: '备注',
     arrange_code: '层次代码',
     arrange_name: '层次名称',
     imgUrl: '图片',

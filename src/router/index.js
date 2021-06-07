@@ -123,21 +123,21 @@ export const asyncRoutes = [
       }
     ]
   },
-  // // PC端轮播图信息管理
-  // {
-  //   path: '/pcunbo',
-  //   component: Layout,
-  //   children: [
-  //     {
-  //       path: 'index',
-  //       component: () => import('@/views/pcUnbo/index'),
-  //       name: 'pcunbo',
-  //       meta: { title: 'pcunbo',
-  //         icon: 'international'
-  //       }
-  //     }
-  //   ]
-  // },
+  // 专业管理
+  {
+    path: '/major',
+    component: Layout,
+    children: [
+      {
+        path: 'index',
+        component: () => import('@/views/openManageSystem/major/index'),
+        name: 'major',
+        meta: { title: 'major',
+          icon: 'international'
+        }
+      }
+    ]
+  },
   // // PC端认领信息管理
   // {
   //   path: '/attestation',
