@@ -105,144 +105,144 @@ export const constantRoutes = [
  */
 export const asyncRoutes = [
   /** when your routing map is too long, you can split it into small modules **/
-  tableRouter,
-  nestedRouter,
-  chartsRouter,
-  // PC端最新物品信息管理
+  // tableRouter,
+  // nestedRouter,
+  // chartsRouter,
+  // 层次管理
   {
-    path: '/new',
+    path: '/arrange',
     component: Layout,
     children: [
       {
         path: 'index',
-        component: () => import('@/views/new/index'),
-        name: 'New',
-        meta: { title: 'New',
+        component: () => import('@/views/openManageSystem/arrange/index'),
+        name: 'arrange',
+        meta: { title: 'arrange',
           icon: 'international'
         }
       }
     ]
   },
-  // PC端轮播图信息管理
-  {
-    path: '/pcunbo',
-    component: Layout,
-    children: [
-      {
-        path: 'index',
-        component: () => import('@/views/pcUnbo/index'),
-        name: 'pcunbo',
-        meta: { title: 'pcunbo',
-          icon: 'international'
-        }
-      }
-    ]
-  },
-  // PC端认领信息管理
-  {
-    path: '/attestation',
-    component: Layout,
-    children: [
-      {
-        path: 'index',
-        component: () => import('@/views/attestation/index'),
-        name: 'attestation',
-        meta: { title: 'attestation',
-          icon: 'international'
-        }
-      }
-    ]
-  },
-  // 微信小程序端轮播图信息管理
-  {
-    path: '/i18n',
-    component: Layout,
-    children: [
-      {
-        path: 'index',
-        component: () => import('@/views/uni-app/unbo/index'),
-        name: 'UnBo',
-        meta: { title: 'UnBo',
-          icon: 'international'
-        }
-      }
-    ]
-  },
-  // 首页展示的物品信息
-  {
-    path: '/goodsfirst',
-    component: Layout,
-    children: [
-      {
-        path: 'index',
-        component: () => import('@/views/uni-app/goodsfirst/goodsfirst'),
-        name: 'goodsFirst',
-        meta: { title: 'goodsFirst',
-          icon: 'international'
-        }
-      }
-    ]
-  },
-  // 寻物类别
-  {
-    path: '/category',
-    component: Layout,
-    children: [
-      {
-        path: 'index',
-        component: () => import('@/views/uni-app/category/category'),
-        name: 'category',
-        meta: { title: 'category',
-          icon: 'international'
-        }
-      }
-    ]
-  },
-  // 物品详情页信息
-  {
-    path: '/goodsDetail',
-    component: Layout,
-    children: [
-      {
-        path: 'index',
-        component: () => import('@/views/uni-app/goodsDetail/goodsDetail'),
-        name: 'goodsDetail',
-        meta: { title: 'goodsDetail',
-          icon: 'international'
-        }
-      }
-    ]
-  },
-  // 招领信息
-  {
-    path: '/sFind',
-    component: Layout,
-    children: [
-      {
-        path: 'index',
-        component: () => import('@/views/uni-app/sFind/sFind'),
-        name: 'sFind',
-        meta: { title: 'sFind',
-          icon: 'international'
-        }
-      }
-    ]
-  },
-  // 待招领物品详情信息
-  {
-    path: '/findList',
-    component: Layout,
-    children: [
-      {
-        path: 'index',
-        component: () => import('@/views/uni-app/findList/findList'),
-        name: 'findList',
-        meta: { title: 'findList',
-          icon: 'international'
-        }
-      }
-    ]
-  }
+  // // PC端轮播图信息管理
+  // {
+  //   path: '/pcunbo',
+  //   component: Layout,
+  //   children: [
+  //     {
+  //       path: 'index',
+  //       component: () => import('@/views/pcUnbo/index'),
+  //       name: 'pcunbo',
+  //       meta: { title: 'pcunbo',
+  //         icon: 'international'
+  //       }
+  //     }
+  //   ]
+  // },
+  // // PC端认领信息管理
+  // {
+  //   path: '/attestation',
+  //   component: Layout,
+  //   children: [
+  //     {
+  //       path: 'index',
+  //       component: () => import('@/views/attestation/index'),
+  //       name: 'attestation',
+  //       meta: { title: 'attestation',
+  //         icon: 'international'
+  //       }
+  //     }
+  //   ]
+  // },
+  // // 微信小程序端轮播图信息管理
+  // {
+  //   path: '/i18n',
+  //   component: Layout,
+  //   children: [
+  //     {
+  //       path: 'index',
+  //       component: () => import('@/views/uni-app/unbo/index'),
+  //       name: 'UnBo',
+  //       meta: { title: 'UnBo',
+  //         icon: 'international'
+  //       }
+  //     }
+  //   ]
+  // },
+  // // 首页展示的物品信息
+  // {
+  //   path: '/goodsfirst',
+  //   component: Layout,
+  //   children: [
+  //     {
+  //       path: 'index',
+  //       component: () => import('@/views/uni-app/goodsfirst/goodsfirst'),
+  //       name: 'goodsFirst',
+  //       meta: { title: 'goodsFirst',
+  //         icon: 'international'
+  //       }
+  //     }
+  //   ]
+  // },
+  // // 寻物类别
+  // {
+  //   path: '/category',
+  //   component: Layout,
+  //   children: [
+  //     {
+  //       path: 'index',
+  //       component: () => import('@/views/uni-app/category/category'),
+  //       name: 'category',
+  //       meta: { title: 'category',
+  //         icon: 'international'
+  //       }
+  //     }
+  //   ]
+  // },
+  // // 物品详情页信息
+  // {
+  //   path: '/goodsDetail',
+  //   component: Layout,
+  //   children: [
+  //     {
+  //       path: 'index',
+  //       component: () => import('@/views/uni-app/goodsDetail/goodsDetail'),
+  //       name: 'goodsDetail',
+  //       meta: { title: 'goodsDetail',
+  //         icon: 'international'
+  //       }
+  //     }
+  //   ]
+  // },
+  // // 招领信息
+  // {
+  //   path: '/sFind',
+  //   component: Layout,
+  //   children: [
+  //     {
+  //       path: 'index',
+  //       component: () => import('@/views/uni-app/sFind/sFind'),
+  //       name: 'sFind',
+  //       meta: { title: 'sFind',
+  //         icon: 'international'
+  //       }
+  //     }
+  //   ]
+  // },
+  // // 待招领物品详情信息
+  // {
+  //   path: '/findList',
+  //   component: Layout,
+  //   children: [
+  //     {
+  //       path: 'index',
+  //       component: () => import('@/views/uni-app/findList/findList'),
+  //       name: 'findList',
+  //       meta: { title: 'findList',
+  //         icon: 'international'
+  //       }
+  //     }
+  //   ]
+  // }
 
   // {
   //   path: '/example',
