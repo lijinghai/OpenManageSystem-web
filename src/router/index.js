@@ -213,21 +213,21 @@ export const asyncRoutes = [
       }
     ]
   },
-  // // 招领信息
-  // {
-  //   path: '/sFind',
-  //   component: Layout,
-  //   children: [
-  //     {
-  //       path: 'index',
-  //       component: () => import('@/views/uni-app/sFind/sFind'),
-  //       name: 'sFind',
-  //       meta: { title: 'sFind',
-  //         icon: 'international'
-  //       }
-  //     }
-  //   ]
-  // },
+  // 角色管理
+  {
+    path: '/role',
+    component: Layout,
+    children: [
+      {
+        path: 'index',
+        component: () => import('@/views/openManageSystem/role/index'),
+        name: 'role',
+        meta: { title: 'role',
+          icon: 'international'
+        }
+      }
+    ]
+  },
   // // 待招领物品详情信息
   // {
   //   path: '/findList',
