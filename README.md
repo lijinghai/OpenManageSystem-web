@@ -1,19 +1,20 @@
 <h1 align="center"> 东软开发平台 | Dorian </h1>
 
 <p align="center">
- 	<a href="https://github.com/Dorian1015/WarmSearch">
-		<img src="https://img.shields.io/github/issues/Dorian1015/WarmSearch"
+ 	<a href="https://github.com/Dorian1015/OpenManageSystem">
+		<img src="https://img.shields.io/github/issues/Dorian1015/OpenManageSystem"
 			 alt="Version">
 	</a>
- 	<a href="https://github.com/Dorian1015/WarmSearch">
-		<img src="https://img.shields.io/github/forks/Dorian1015/WarmSearch"
+ 	<a href="https://github.com/Dorian1015/OpenManageSystem">
+		<img src="https://img.shields.io/github/forks/Dorian1015/OpenManageSystem"
 			 alt="Status">
 	</a>
-    <a href="https://github.com/Dorian1015/WarmSearch">
-		<img src="https://img.shields.io/github/stars/Dorian1015/WarmSearch"
+    <a href="https://github.com/Dorian1015/OpenManageSystem">
+		<img src="https://img.shields.io/github/stars/Dorian1015/OpenManageSystem"
 			 alt="Status">
 	</a>
 </p>
+
 
 <p align="center">
      <a href="https://github.com/Dorian1015/WarmSearch">
@@ -24,7 +25,23 @@
 
 ### 项目介绍 :book:
 
-👉
+👉 这是我的大二(2021.6.3)全栈班的后端业务领域课的实训===>东软开放平台
+
+### 项目要求：
+
+（1）使用SpringBoot+Mybaits+Druid+Mysql5.7实现项目搭建，SpringBoot版本号无具体要求
+
+（2）使用PowerDesigner实现项目pdm的输出
+
+（3）使用Git服务器实现代码管理
+
+（4）使用FastDfs实现文件上传
+
+（5）集成Swagger2实现简化调试
+
+（6）使用redis实现登陆共享与登陆拦截
+
+（7）使用AspectJ实现日志的自动添加
 
 
 ### 项目技术栈 :star:
@@ -35,19 +52,13 @@
 - 数据库：MySql 5.7
 ### 项目地址 :link:
 
-项目采用前后端分离开发模式，PC端使用:Vue + Element-ui, 小程序使用Uni-app开发，后端数据API采用Java、Spring-Boot开发.
+项目采用前后端分离开发模式，PC端使用:Vue + Element-ui开发，后端数据API采用Java、Spring-Boot开发.
 
-后端code地址：https://github.com/Dorian1015/WarmSearch
+后端code地址：https://github.com/Dorian1015/OpenManageSystem
 
-web管理端code地址: https://github.com/Dorian1015/WarmSearch-Web
-
-### 体验地址
-
-
+web管理端code地址:  https://github.com/Dorian1015/OpenManageSystem-web
 
 ## 前言：
-
-🏫本人目前（2021年5月8日）是一名大二在校大学生从去年（2020年)5月开始准备自学java，从基础到框架，利用课余时间从JavaWeb开始，到SSM,到SpringBoot,再到前端Html5,CSS3,JS,Vue.js,最后到Node.js，学完之后开始着手开始做这个校园失物招领网站，目前该项目大概原型已经呈现出来，这是基于前后端分离项目，目前利用课余时间，不断完善改项目。小白开始，若有错误，还望大家多多指教。各部分源码将在Github上持续更新。
 
 ##### 这是我的邮箱lijinghailjh@163.com,欢迎大家来指正
 
@@ -70,7 +81,7 @@ web管理端code地址: https://github.com/Dorian1015/WarmSearch-Web
 
 - 本项目前后端分离，前端基于`Vue`+`Vue-router`+`Vuex`+`Element-ui`+`Axios`，参考锤子商城实现。后端基于SpringBoot(框架) + JSON WEB TOKEN(令牌机制) + MybatisPlus + Mysql实现。
 
-- 总体架构![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/失物招领.assets/clip_image002.jpg)
+- 总体架构![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/图片1.png)
 
   系统设计秉承“前后端分离/SOA”的总体思想，前端使用Vue/ElementUI作为主要框架技术、Nginx作为HTTP服务器，用来提供静态页面访问服务和反向代理作用；后端则以Springboot主流框架技术为主、采用MySQL开源数据库，前后端使用Restful规范交换数据。
 
@@ -90,23 +101,44 @@ web管理端code地址: https://github.com/Dorian1015/WarmSearch-Web
 
 ## 功能模块
 
+#### 后端部分(Springboot + mybatis + Java web token)
 
-- #### 寻物页面部分展示
+![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/后端页面1.png)
 
-[comment]: <> (![img]&#40;https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/失物招领.assets/image-20210327003137254.png&#41;)
 
-#### 后台管理系统(WarmSearch-web)
+
+![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/后端页面2.png)
+
+#### Swagger2页面
+
+![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/swagger1.png)
+
+
+
+![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/swagger21.png)
+
+#### 前端代码结构（vue)
+
+![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/前端1.png)
+
+
+
+![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/前端2.png)
 
 - #### 登录页面展示
 
-
+![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/登录1.png)
 
 - #### 首页页面展示
 
-
+![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/首页.png)
 - #### 部分功能页面展示
 
-
+![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/层次管理.png)
+- #### 添加
+![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/添加.png)
+- #### 编辑功能
+![img](https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/编辑.png)
 
 
 
