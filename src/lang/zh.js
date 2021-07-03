@@ -100,7 +100,7 @@ export default {
     size: '布局大小'
   },
   login: {
-    title: '东软开放平台',
+    title: '东软开放大学平台',
     logIn: '登录',
     username: '账号',
     password: '密码',
