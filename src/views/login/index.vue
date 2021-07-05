@@ -112,7 +112,7 @@ export default {
     // }
     return {
       // 设置登录背景图片
-      Background: "https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/github/122.jpg",
+      Background: 'https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/github/123.jpg',
       loginForm: {
         username: 'admin1',
         password: 'password1'
