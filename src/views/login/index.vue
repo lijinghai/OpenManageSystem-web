@@ -112,7 +112,7 @@ export default {
     // }
     return {
       // 设置登录背景图片
-      Background: 'https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/github/123.jpg',
+      Background: 'https://cdn.jsdelivr.net/gh/Dorian1015/cdn/img/2021611实训/东软开发大学.jpg',
       loginForm: {
         username: 'admin1',
         password: 'password1'
@@ -282,6 +282,8 @@ $light_gray: #726d6d;
     //设置登录框位置
     //top: 273px;
     top: 179px;
+    //向右移动
+    left: 380px;
     overflow: hidden;
     border-radius: 6px;
     background: #ffffff;
