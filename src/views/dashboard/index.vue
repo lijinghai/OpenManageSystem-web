@@ -7,7 +7,7 @@
   <div>
     <el-card shadow="always" body-style="padding: 5px 20px;">
       <el-tag type="success" style="width: 100%;">Dorian</el-tag>
-      <p>月光还是少年的月光，九州一色还是少年的月光</p>
+      <p>月光还是少年的月光，九州一色还是李白的霜</p>
       <el-tag type="success" style="width: 100%;">项目简介</el-tag>
       <p>这是我的大二(2021.6.3)全栈班的后端业务领域课的实训===>东软开放大学平台的后台管理界面</p>
       <p>东软开放大学平台的后台管理，完成于本人大二期间（2021年 6月 3日），采用vue与springboot架构开发，前后端完全分离，json格式数据交互，全部由本人独立开发完成。将来将部署在本人的学生版阿里云centos7服务器上。</p>
